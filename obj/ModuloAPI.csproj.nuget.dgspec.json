@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedroho\\Documents\\ModuloAPI\\ModuloAPI.csproj": {}
+    "C:\\Users\\Reinaldo Santos\\OneDrive\\Documentos\\dotnetStudies\\ModuloAPI\\ModuloAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedroho\\Documents\\ModuloAPI\\ModuloAPI.csproj": {
+    "C:\\Users\\Reinaldo Santos\\OneDrive\\Documentos\\dotnetStudies\\ModuloAPI\\ModuloAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedroho\\Documents\\ModuloAPI\\ModuloAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Reinaldo Santos\\OneDrive\\Documentos\\dotnetStudies\\ModuloAPI\\ModuloAPI.csproj",
         "projectName": "ModuloAPI",
-        "projectPath": "C:\\Users\\pedroho\\Documents\\ModuloAPI\\ModuloAPI.csproj",
-        "packagesPath": "C:\\Users\\pedroho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedroho\\Documents\\ModuloAPI\\obj\\",
+        "projectPath": "C:\\Users\\Reinaldo Santos\\OneDrive\\Documentos\\dotnetStudies\\ModuloAPI\\ModuloAPI.csproj",
+        "packagesPath": "C:\\Users\\Reinaldo Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Reinaldo Santos\\OneDrive\\Documentos\\dotnetStudies\\ModuloAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pedroho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Reinaldo Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,6 +57,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.5, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.23.26100, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.26.100, )"
             },
             "Scalar.AspNetCore": {
               "target": "Package",
