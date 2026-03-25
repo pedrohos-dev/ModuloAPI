@@ -16,9 +16,9 @@ namespace ModuloAPI.Migrations
                 {
                     Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
                         .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
-                    Nome = table.Column<string>(type: "VARCHAR2(2000)", nullable: true),
+                    Nome = table.Column<string>(type: "NVARCHAR2(2000)", nullable: true),
                     Telefone = table.Column<int>(type: "NUMBER(10)", nullable: false),
-                    Ativo = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Ativo = table.Column<bool>(type: "NUMBER(1)", nullable: false)
                 },
                 constraints: table =>
                 {

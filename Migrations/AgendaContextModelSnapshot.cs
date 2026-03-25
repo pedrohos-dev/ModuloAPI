@@ -30,7 +30,7 @@ namespace ModuloAPI.Migrations
                     OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool>("Ativo")
-                        .HasColumnType("BOOLEAN");
+                        .HasColumnType("NUMBER(1)");
 
                     b.Property<string>("Nome")
                         .HasColumnType("NVARCHAR2(2000)");

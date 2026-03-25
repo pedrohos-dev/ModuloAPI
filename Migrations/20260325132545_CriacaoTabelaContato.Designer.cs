@@ -11,7 +11,7 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace ModuloAPI.Migrations
 {
     [DbContext(typeof(AgendaContext))]
-    [Migration("20260324142728_CriacaoTabelaContato")]
+    [Migration("20260325132545_CriacaoTabelaContato")]
     partial class CriacaoTabelaContato
     {
         /// <inheritdoc />
