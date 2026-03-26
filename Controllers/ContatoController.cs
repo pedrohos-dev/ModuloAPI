@@ -24,7 +24,7 @@ namespace ModuloAPI.Controllers
         {
             _context.Add(contato);
             _context.SaveChanges();
-            return Ok(contato);
+            return CreatedAtAction(nameof(ObterPorId), new { id = contato.Id }, contato);
         }
         [HttpGet("todos")]
         public IActionResult ObtertTodosContatos()
@@ -36,7 +36,7 @@ namespace ModuloAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult ObtertPorId(int id)
+        public IActionResult ObterPorId(int id)
         {
             var contato = _context.Contatos.Find(id);
             if (contato == null)
