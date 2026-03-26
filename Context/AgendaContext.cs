@@ -7,6 +7,7 @@ using ModuloAPI.Entities;
 
 namespace ModuloAPI.Context
 {
+    // classe para fazer a conexao com o banco de dados
     public class AgendaContext : DbContext
     {
         // receber a configuacao
